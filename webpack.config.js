@@ -9,6 +9,13 @@ module.exports = {
 				loader: "ts-loader",
 				exclude: /node_modules/,
 			},
+			{
+				test: /\.(png|jpeg|jpg|ico|svg)$/,
+				loader: "file-loader",
+				options: {
+					name: "public/[name].[ext]",
+				},
+			},
 		],
 	},
 	resolve: {
