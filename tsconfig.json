@@ -1,12 +1,16 @@
 {
 	"compilerOptions": {
-		"outDir": "./dist/",
 		"module": "es6",
 		"target": "es5",
 		"jsx": "react-jsx",
 		"allowJs": true,
 		"allowSyntheticDefaultImports": true,
-		"moduleResolution": "node"
-	},
-	"include": ["./src/**/*"]
+		"moduleResolution": "node",
+		"strict": true,
+		"noEmit": true,
+		"baseUrl": "./src",
+		"paths": {
+			"images": ["./images/*"]
+		}
+	}
 }

@@ -1,8 +1,6 @@
 import React from "react";
 import { StartViewContainer } from "./StartView.styles";
-import jpg from "../../images/photo.jpg";
-
-// const photoSrc = require("@public/photo.jpg");
+import jpg from "images/photo.jpg";
 
 const StartView = () => {
 	return (
