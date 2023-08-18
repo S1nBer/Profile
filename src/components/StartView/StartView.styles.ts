@@ -9,7 +9,7 @@ overflow: hidden;
   height: 100%;
   width: 100%;
   opacity: 0.3;
-  object-fit: none;
+  object-fit: cover;
   -webkit-filter: grayscale(1);
   filter: grayscale(1);
 }
