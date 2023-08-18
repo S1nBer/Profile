@@ -1,13 +1,13 @@
 import React from "react";
 import { StartViewContainer } from "./StartView.styles";
+import jpg from "../../images/photo.jpg";
 
 // const photoSrc = require("@public/photo.jpg");
 
 const StartView = () => {
 	return (
 		<StartViewContainer>
-			{/* <img src={photoSrc} alt="photo" /> */}
-			<div className="background-image"></div>
+			<img src={jpg} className="background-image" alt="background-photo" />
 		</StartViewContainer>
 	);
 };

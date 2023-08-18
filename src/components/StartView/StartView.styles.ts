@@ -1,11 +1,16 @@
 import { styled } from "styled-components";
-import jpg from "../../images/photo.jpg";
 
 export const StartViewContainer = styled.div`
 height: 100vh;
 background: #014F86;
+overflow: hidden;
 
 .background-image {
-  background-image: url(${jpg});
+  height: 100%;
+  width: 100%;
+  opacity: 0.3;
+  object-fit: none;
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
 }
 `;
